@@ -1,0 +1,18 @@
+body{
+    background-color: #1e1e1e;
+    color: white;
+    position: absolute;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+
+    width: 100%;
+}
+
+.grid > div{
+    padding-top: 10px;
+    grid-auto-columns: minmax(100,auto);
+}
